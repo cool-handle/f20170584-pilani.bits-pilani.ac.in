@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container1 {
+  
+ padding: 0 15px;
+ margin-top: 50px;
+margin-bottom: 0px;  
+}
+
+.top-wrapper {
+  padding: 100px 0px 100px 0px;
+  background-image: url("24fe3-stocksnap_w0rus6fwbj-min-min.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 900px;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 90px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: red;
+  transition: all 0.5s;
+
+}
+.top-wrapper h1:hover{
+	color:#B22222;
+	opacity: 1;
+}
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 3px;
+  font-size: 50px;
+  color: red;
+  transition: all 0.5s;
+}
+.top-wrapper p:hover{
+	color:#B22222;
+	opacity: 1;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+  color: white;
+  font-size:30px;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  
+}
+
+.header-left {
+  float:left;
+  line-height:65px;
+  font-size:65px;
+  color:green;
+  padding:auto;
+}
+.header-right{
+	margin : auto;
+	float:right;
+	}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0px 25px;
+  color: orange;
+  display: block;
+  float: right;
+  transition: all 0.5s;
+  font-size:35px;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color:green;
+}
+
+/* Modal  */
+/* Modal is not visible by default. Modal become visible by changing the display property */
+.signup-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+.fa-times:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: 0.3s ease-in-out;
+}
+
+#signup-form {
+  width: 100%;
+}
+
+#signup-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#signup-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 15px;
+  color: #5f5d60;
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+	
+  float: left;
+  width: 25%;
+}
+.lesson-icon p:hover{
+
+  color: orange;
+}
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+	line-height: 65px;
+  display: block;
+  transition: all 0.5s;
+  font-size:35px;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  color: black;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 80px;
+  font-size: 15px;
+  color: #b3aeb5;
+  transition: all 0.5s;
+}
+.text-contents:hover{
+	color: black;
+	font-weight: bold;
+}
+.heading h3 {
+	font-size: 25px;
+  font-weight: normal;
+  margin-top:25px;
+  color:white;
+}
+.end {
+	font-size: 25px;
+	font-weight: normal;
+	color:white;
+	box-shadow: 0 7px #B22222;
+	background-color: red;
+	padding: 15px 40px;
+}
+.end:active {
+  position: relative;
+  top: 7px;
+  box-shadow: 0 4px #B22222;
+}
+.message-wrapper {
+  border-bottom: 3px solid black;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: black;
+  height:150px;
+}
+
+.containerf h1{
+	color:white;
+	font-size:50px;
+	margin-top:10px;
+}
+
+footer p {
+  color: white;
+  font-size: 20px;
+  margin-bottom:10px;
+
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: purple;
+  text-align:center;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
